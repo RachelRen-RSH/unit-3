@@ -2,8 +2,7 @@
 //SVG dimension variables
 var w = 950, h = 500;
 
-//Example 1.4 line 1...container block
-//Example 1.5 line 1...container block
+
 var container = d3.select("body") //get the <body> element from the DOM
     .append("svg") //put a new svg in the body
     .attr("width", w) //assign the width
@@ -74,7 +73,7 @@ var color = d3.scaleLinear()
         minPop,
         maxPop
     ]);
-//Example 2.6 line 3
+
 var circles = container.selectAll(".circles") //create an empty selection
     .data(cityPop) //here we feed in an array
     .enter() //one of the great mysteries of the universe
@@ -139,7 +138,6 @@ var title = container.append("text")
     //create format generator
     var format = d3.format(",");
 
-    //Example 3.16 line 1...second line of label
     var popLine = labels.append("tspan")
         .attr("class", "popLine")
         .attr("x", function(d,i){

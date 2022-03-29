@@ -1,0 +1,532 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "Province": "Beijing",
+                "Bachelor": 41980,
+                "Senior_High": 17593,
+                "Junior_High": 23289,
+                "Primary": 10503
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    116.417592,
+                    39.937967
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Province": "Tianjin",
+                "Bachelor": 26940,
+                "Senior_High": 17719,
+                "Junior_High": 32294,
+                "Primary": 16123
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    117.185182,
+                    39.107355
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Province": "Hebei",
+                "Bachelor": 12418,
+                "Senior_High": 13861,
+                "Junior_High": 39950,
+                "Primary": 24664
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    115.282382,
+                    38.327924
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Province": "Shanxi",
+                "Bachelor": 17358,
+                "Senior_High": 16485,
+                "Junior_High": 38950,
+                "Primary": 19506
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.248176,
+                    37.586939
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Province": "Inner Mongolia",
+                "Bachelor": 18688,
+                "Senior_High": 14814,
+                "Junior_High": 33861,
+                "Primary": 23627
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    117.728454,
+                    44.570414
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Province": "Liaoning",
+                "Bachelor": 18216,
+                "Senior_High": 14670,
+                "Junior_High": 42799,
+                "Primary": 18888
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    123.525354,
+                    41.397647
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Province": "Jilin",
+                "Bachelor": 16738,
+                "Senior_High": 17080,
+                "Junior_High": 38234,
+                "Primary": 22318
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    126.535855,
+                    43.820559
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Province": "Heilongjiang",
+                "Bachelor": 14793,
+                "Senior_High": 15525,
+                "Junior_High": 42793,
+                "Primary": 21863
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    128.42752,
+                    47.014329
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Province": "Shanghai",
+                "Bachelor": 33872,
+                "Senior_High": 19020,
+                "Junior_High": 28935,
+                "Primary": 11929
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.483385,
+                    31.246027
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Province": "Jiangsu",
+                "Bachelor": 18663,
+                "Senior_High": 16191,
+                "Junior_High": 33308,
+                "Primary": 22742
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    119.47881,
+                    33.668773
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Province": "Zhejiang",
+                "Bachelor": 16990,
+                "Senior_High": 14555,
+                "Junior_High": 32706,
+                "Primary": 26384
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    119.902745,
+                    29.059828
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Province": "Anhui",
+                "Bachelor": 13280,
+                "Senior_High": 13294,
+                "Junior_High": 33724,
+                "Primary": 26875
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    117.189163,
+                    31.783382
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Province": "Fujian",
+                "Bachelor": 14148,
+                "Senior_High": 14212,
+                "Junior_High": 32218,
+                "Primary": 28031
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    117.974465,
+                    26.216565
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Province": "Jiangxi",
+                "Bachelor": 11897,
+                "Senior_High": 15145,
+                "Junior_High": 35501,
+                "Primary": 27514
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    115.55544,
+                    27.804739
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Province": "Shandong",
+                "Bachelor": 14384,
+                "Senior_High": 14334,
+                "Junior_High": 35778,
+                "Primary": 23693
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    117.756464,
+                    36.334087
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Province": "Henan",
+                "Bachelor": 11744,
+                "Senior_High": 15239,
+                "Junior_High": 37518,
+                "Primary": 24557
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    113.660488,
+                    33.903296
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Province": "Hubei",
+                "Bachelor": 15502,
+                "Senior_High": 17428,
+                "Junior_High": 34280,
+                "Primary": 23520
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.534671,
+                    30.996329
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Province": "Hunan",
+                "Bachelor": 12239,
+                "Senior_High": 17776,
+                "Junior_High": 35636,
+                "Primary": 25214
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    111.659259,
+                    27.958307
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Province": "Guangdong",
+                "Bachelor": 15699,
+                "Senior_High": 18224,
+                "Junior_High": 35484,
+                "Primary": 20676
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.80027,
+                    23.76822
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Province": "Guangxi",
+                "Bachelor": 10806,
+                "Senior_High": 12962,
+                "Junior_High": 36388,
+                "Primary": 27855
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    108.846147,
+                    23.619883
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Province": "Hainan",
+                "Bachelor": 13919,
+                "Senior_High": 15561,
+                "Junior_High": 40174,
+                "Primary": 19701
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    109.76199,
+                    19.182455
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Province": "Chongqing",
+                "Bachelor": 15412,
+                "Senior_High": 15956,
+                "Junior_High": 30582,
+                "Primary": 29894
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.548238,
+                    29.565015
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Province": "Sichuan",
+                "Bachelor": 13267,
+                "Senior_High": 13301,
+                "Junior_High": 31443,
+                "Primary": 31317
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    102.695767,
+                    30.738864
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Province": "Guizhou",
+                "Bachelor": 10952,
+                "Senior_High": 9951,
+                "Junior_High": 30464,
+                "Primary": 31921
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    105.99283,
+                    26.34054
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Province": "Yunnan",
+                "Bachelor": 11601,
+                "Senior_High": 10338,
+                "Junior_High": 29241,
+                "Primary": 35667
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    101.057809,
+                    24.282346
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Province": "Tibet",
+                "Bachelor": 11019,
+                "Senior_High": 7051,
+                "Junior_High": 15757,
+                "Primary": 32108
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    86.448392,
+                    32.088933
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Province": "Shaanxi",
+                "Bachelor": 18397,
+                "Senior_High": 15581,
+                "Junior_High": 33979,
+                "Primary": 21686
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    108.630496,
+                    34.040526
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Province": "Gansu",
+                "Bachelor": 14506,
+                "Senior_High": 12937,
+                "Junior_High": 27423,
+                "Primary": 29808
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    104.145072,
+                    35.151482
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Province": "Qinghai",
+                "Bachelor": 14880,
+                "Senior_High": 10568,
+                "Junior_High": 24344,
+                "Primary": 32725
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    94.679515,
+                    35.500098
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Province": "Ningxia",
+                "Bachelor": 17340,
+                "Senior_High": 13432,
+                "Junior_High": 29717,
+                "Primary": 26111
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    105.912433,
+                    37.136541
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Province": "Xinjiang",
+                "Bachelor": 16536,
+                "Senior_High": 13208,
+                "Junior_High": 31559,
+                "Primary": 28405
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    85.449236,
+                    41.394049
+                ]
+            }
+        }
+    ]
+}
