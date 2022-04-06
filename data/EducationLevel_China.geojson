@@ -429,7 +429,7 @@
         {
             "type": "Feature",
             "properties": {
-                "Province": "Tibet",
+                "Province": "Xizang",
                 "Bachelor": 11019,
                 "Senior_High": 7051,
                 "Junior_High": 15757,
@@ -525,6 +525,23 @@
                 "coordinates": [
                     85.449236,
                     41.394049
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Province": "Taibei",
+                "Bachelor": 0,
+                "Senior_High": 0,
+                "Junior_High": 0,
+                "Primary": 0
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.5654,
+                    25.0330
                 ]
             }
         }
