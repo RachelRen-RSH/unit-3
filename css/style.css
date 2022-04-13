@@ -25,8 +25,8 @@
 
 .regions{
     fill: red;
-    stroke: yellow;
-    stroke: width 2px;
+    stroke: black;
+    stroke: width 3px;
 }
 
 .gratLines {
@@ -39,4 +39,20 @@
 }
 .map {
     border: medium solid #999;
+}
+.chart {
+    background-color: rgba(128,128,128,.2);
+    border: medium solid #999;
+    float: right;
+    margin: 10px 20px 0 0;
+}
+.numbers {
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    font-family: sans-serif;
+}
+.chartTitle {
+    font-family: sans-serif;
+    font-size: 1.3em;
+    font-weight: bold;
 }
