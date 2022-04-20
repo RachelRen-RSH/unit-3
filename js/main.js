@@ -346,7 +346,6 @@ function makeColorScale(data){
                     return "white";
                 }
             });
-        console.log("expressed is: " + expressed);
         var bars = d3.selectAll(".bars")
             //Sort bars
             .sort(function (a, b) {
@@ -434,10 +433,6 @@ function makeColorScale(data){
             });
         var chartTitle = d3.select(".chartTitle")
             .text("Number of citizens (100,000) with " + expressed + "'s degree");
-        console.log("whueofnxhwo" + domainArray);
-
-
-
     };
 
     //function to highlight enumeration units and bars
