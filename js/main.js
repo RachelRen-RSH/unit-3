@@ -88,24 +88,24 @@
 
     }
 
-//function to create color scale generator
-function makeColorScale(data){
+    //function to create color scale generator
+    function makeColorScale(data) {
 
-    //create color scale generator
-    var colorScale = d3.scaleQuantile()
-        .range(colorClasses);
+        //create color scale generator
+        var colorScale = d3.scaleQuantile()
+            .range(colorClasses);
 
-    //build two-value array of minimum and maximum expressed attribute values
-    var minmax = [
-        d3.min(data, function(d) { return parseFloat(d[expressed]); }),
-        d3.max(data, function(d) { return parseFloat(d[expressed]); })
-    ];
-    //assign two-value array as scale domain
-    colorScale.domain(minmax);
+        //build two-value array of minimum and maximum expressed attribute values
+        var minmax = [
+            d3.min(data, function (d) { return parseFloat(d[expressed]); }),
+            d3.max(data, function (d) { return parseFloat(d[expressed]); })
+        ];
+        //assign two-value array as scale domain
+        colorScale.domain(minmax);
 
-    return colorScale;
-};
-////////////////////////////////////////////////////////////
+        return colorScale;
+    };
+    
     //function to create coordinated bar chart
     function setChart(csvData, colorScale) {
         //create a second svg element to hold the bar chart
@@ -116,10 +116,6 @@ function makeColorScale(data){
             .attr("class", "chart")
             .style("background-color", "white")
         //create a second svg element to hold the bar chart
-
-        //set bars for each province
-        //create a scale to size bars proportionally to frame
-
         //set bars for each province
         var bars = chart.selectAll(".bars")
             .data(csvData)
@@ -168,7 +164,7 @@ function makeColorScale(data){
             .append("path") //append each element to the svg as a path element
             .attr("class", "gratLines") //assign class for styling
             .attr("d", path); //project graticule lines
-        //...GRATICULE BLOCKS FROM Week 8
+
     };
 
     function joinData(ChinaProvince, csvData) {
@@ -353,7 +349,7 @@ function makeColorScale(data){
             })
             .transition()
             .duration(1000)
-        
+
         // set the legend to dynamic
         if (expressed == "Senior High") {
             var first = d3.select(".first")
@@ -367,7 +363,7 @@ function makeColorScale(data){
             var fifth = d3.select(".fifth")
                 .text("None");
         }
-        else if (expressed == "Junior High"){
+        else if (expressed == "Junior High") {
             var first = d3.select(".first")
                 .text(">= 34280");
             var second = d3.select(".second")
@@ -379,7 +375,7 @@ function makeColorScale(data){
             var fifth = d3.select(".fifth")
                 .text("None");
         }
-        else if (expressed == "Primary"){
+        else if (expressed == "Primary") {
             var first = d3.select(".first")
                 .text(">= 29808");
             var second = d3.select(".second")
@@ -391,7 +387,7 @@ function makeColorScale(data){
             var fifth = d3.select(".fifth")
                 .text("None");
         }
-        else if (expressed == "Illiteracy"){
+        else if (expressed == "Illiteracy") {
             var first = d3.select(".first")
                 .text(">= 34065");
             var second = d3.select(".second")
@@ -408,7 +404,7 @@ function makeColorScale(data){
 
     }
 
-// create the function to update the chart bars height and the color scales
+    // create the function to update the chart bars height and the color scales
     function updateChart(bars, n, colorScale) {
         //position bars
         bars
@@ -497,7 +493,7 @@ function makeColorScale(data){
     };
 
     // add the metadata information to the right corner of the whole page
-    function setMetadata(){
+    function setMetadata() {
         var Metadata = d3.select("body")
             .append("svg")
             .attr("class", "metadata")
@@ -505,28 +501,28 @@ function makeColorScale(data){
             .attr("height", 120)
         var name = Metadata.append("text")
             .attr("class", "metaInfo")
-            .attr("x",10)
-            .attr("y",20)
+            .attr("x", 10)
+            .attr("y", 20)
             .text("Project name: Educational level in China (2020)")
         var author = Metadata.append("text")
             .attr("class", "metaInfo")
-            .attr("x",10)
-            .attr("y",40)
+            .attr("x", 10)
+            .attr("y", 40)
             .text("Author: Sihan Ren")
         var date = Metadata.append("text")
             .attr("class", "metaInfo")
-            .attr("x",10)
-            .attr("y",60)
+            .attr("x", 10)
+            .attr("y", 60)
             .text("Date: 4/20/2022")
         var projection = Metadata.append("text")
             .attr("class", "metaInfo")
-            .attr("x",10)
-            .attr("y",80)
+            .attr("x", 10)
+            .attr("y", 80)
             .text("Projection: D3 Albers Equal-Area")
         var source = Metadata.append("text")
             .attr("class", "metaInfo")
-            .attr("x",10)
-            .attr("y",100)
+            .attr("x", 10)
+            .attr("y", 100)
             .text("Data source: National Bureau of Statistics of China")
 
     }
